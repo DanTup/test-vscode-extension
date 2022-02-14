@@ -1,7 +1,12 @@
 {
-  "name": "dantup-testing",
+	"name": "dantup-testing",
+	"publisher": "DanTup",
 	"displayName": "DanTup's Testing Extension",
 	"description": "A test extension. Nothing useful here.",
+	"repository": {
+		"url": "https://github.com/DanTup/test-vscode-extension"
+	},
+	"license": "MIT",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.64.0"
@@ -10,7 +15,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:dantup-testing.helloWorld"
+		"onCommand:dantup-testing.helloWorld"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
